@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tokoto/components/custom_appbar.dart';
 import 'package:tokoto/components/customelevatedbutton.dart';
 
+import '../home_screen/home_screen.dart';
 import '../onboard_screens/onboard_screen1.dart';
 
 class SignInScreen3 extends StatelessWidget {
@@ -39,7 +40,7 @@ class SignInScreen3 extends StatelessWidget {
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 80),
-                child: CustomElevatedButton(text: "Back to Home", nextScreen: OnboardScreen1()),
+                child: CustomElevatedButton(text: "Back to Home", nextScreen: HomeScreen()),
               )
 
             ],

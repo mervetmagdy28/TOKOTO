@@ -11,10 +11,13 @@ class CustomAppBar extends StatelessWidget {
           padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 20),
           child: Icon(Icons.arrow_back_ios,color: Colors.grey[500],),
         ),
-        Text(appBarText, style: TextStyle(
-            color: Colors.grey[500],
-            fontSize: 16
-        ),)
+
+        Center(
+          child: Text(appBarText, style: TextStyle(
+              color: Colors.grey[500],
+              fontSize: 16
+          ),),
+        )
       ],
     );
   }
